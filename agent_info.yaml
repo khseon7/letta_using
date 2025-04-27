@@ -1,0 +1,19 @@
+anthropic_agent:
+  agent_id: agent-cb2d48f9-2d39-4941-b910-cff8c74865af
+  context_window_limit: 16384
+  description: Anthropic 모델을 사용하는 기본 에이전트입니다.
+  embedding: null
+  embedding_config: null
+  max_tokens: 4096
+  model: anthropic/claude-3-5-sonnet-20240620
+  name: Anthropic_agent
+  system: 당신은 도움이 되는 AI 어시스턴트입니다. 사용자의 질문에 친절하고 정확하게 한국어로 답변해주세요.
+openai_agent:
+  agent_id: agent-52e578b0-d335-4268-acb8-6cfb1853ec8f
+  context_window_limit: 16384
+  description: OpenAI 모델을 사용하는 기본 에이전트입니다.
+  embedding: openai/text-embedding-ada-002
+  max_tokens: 4096
+  model: openai/gpt-4o-mini
+  name: OpenAI_agent
+  system: 당신은 도움이 되는 AI 어시스턴트입니다. 사용자의 질문에 친절하고 정확하게 한국어로 답변해주세요.
